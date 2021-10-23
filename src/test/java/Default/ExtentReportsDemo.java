@@ -56,7 +56,7 @@ public void googletest()
 {
 	String title=driver.getTitle();
 	System.out.println(title);
-	Assert.assertEquals(title, "Gooogle");
+	Assert.assertEquals(title, "Google");
 }
 @AfterMethod
 public void TearDown(ITestResult result) throws IOException {//Whatever count comes pass or fail it will store in ITestresult
